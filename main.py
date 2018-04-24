@@ -22,7 +22,7 @@ def main(user, description, file_name):
         print("\tURL: {}".format(gist['html_url']))
         print("\tDescription: {}".format(gist['description']))
         files = gist['files']
-        files_concat = ' | '.join(files.keys())
+        files_concat = ' | '.join(files.keys())
         print('\tFiles: {} - ({})'.format(len(files), files_concat))
         print('-' * 60)
 
